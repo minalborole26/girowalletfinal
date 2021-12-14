@@ -40,6 +40,8 @@ class resetPasswordViewController: UIViewController {
     
 
     @IBAction func tapOnSavePasswordBtn(_ sender: UIButton) {
+        let vc4 = storyboard?.instantiateViewController(withIdentifier: "otpViewController") as! otpViewController
+        navigationController?.pushViewController(vc4, animated: true)
     }
     
 

@@ -32,6 +32,9 @@ class signUpViewController: UIViewController {
     
 
     @IBAction func signUPButtonTap(_ sender: UIButton) {
+        let vc5 = storyboard?.instantiateViewController(withIdentifier: "setUpPinViewController") as! setUpPinViewController
+        navigationController?.pushViewController(vc5, animated: true)
+        
     }
     @IBAction func signINButtonTap(_ sender: UIButton) {
         

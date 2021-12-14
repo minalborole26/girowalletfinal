@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C534577227635DF500C31768 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534577127635DF500C31768 /* signUpViewController.swift */; };
+		C540DB6C276878870073DC94 /* otpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C540DB6B276878870073DC94 /* otpViewController.swift */; };
+		C540DB6E2768C1E60073DC94 /* setUpPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C540DB6D2768C1E60073DC94 /* setUpPinViewController.swift */; };
 		C57AEBE827621024006EDEF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57AEBE727621024006EDEF2 /* AppDelegate.swift */; };
 		C57AEBEA27621024006EDEF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57AEBE927621024006EDEF2 /* SceneDelegate.swift */; };
 		C57AEBEC27621024006EDEF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57AEBEB27621024006EDEF2 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		C534577127635DF500C31768 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		C540DB6B276878870073DC94 /* otpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otpViewController.swift; sourceTree = "<group>"; };
+		C540DB6D2768C1E60073DC94 /* setUpPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setUpPinViewController.swift; sourceTree = "<group>"; };
 		C57AEBE427621024006EDEF2 /* giroWalletApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = giroWalletApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57AEBE727621024006EDEF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C57AEBE927621024006EDEF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 				C57AEBFB2762643B006EDEF2 /* forgotPasswordViewController.swift */,
 				C534577127635DF500C31768 /* signUpViewController.swift */,
 				C5DECB422766FC5A0076117E /* resetPasswordViewController.swift */,
+				C540DB6B276878870073DC94 /* otpViewController.swift */,
+				C540DB6D2768C1E60073DC94 /* setUpPinViewController.swift */,
 				C57AEBED27621024006EDEF2 /* Main.storyboard */,
 				C57AEBF027621026006EDEF2 /* Assets.xcassets */,
 				C57AEBF227621026006EDEF2 /* LaunchScreen.storyboard */,
@@ -152,6 +158,8 @@
 				C57AEBEC27621024006EDEF2 /* ViewController.swift in Sources */,
 				C5DECB432766FC5A0076117E /* resetPasswordViewController.swift in Sources */,
 				C57AEBE827621024006EDEF2 /* AppDelegate.swift in Sources */,
+				C540DB6C276878870073DC94 /* otpViewController.swift in Sources */,
+				C540DB6E2768C1E60073DC94 /* setUpPinViewController.swift in Sources */,
 				C57AEBEA27621024006EDEF2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
